@@ -53,4 +53,10 @@ Streamlit. We're generating a bunch of random numbers in a loop for around
 
 plotting_demo()
 
+def test():
+    for i in range(1, 10):
+        st.write(f"Count:{i}")
+
+test()
+
 show_code(plotting_demo)
